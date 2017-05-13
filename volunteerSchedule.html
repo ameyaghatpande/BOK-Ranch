@@ -2,10 +2,279 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="volunteerSchedule.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volunteer Schedule Page</title>
+    <link rel="stylesheet" href="volunteerSchedule.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
 
+<body>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-6">
+                    <div class="page-header">
+                        <h1>BOK Web Portal <small>Therapeutic Horse Riding Coordinator</small></h1></div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="well"><span>CURRENT SIGNED IN USER HERE</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-4">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home </a></li>
+                        <li><a href="#">Your Profile</a></li>
+                        <li><a href="#">Weekly Schedule</a></li>
+                        <li><a href="#">Account Information</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-4">
+                    <h1 style="padding:0px;height:73px;">Volunteer Schedule</h1>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Upcoming Lessons</h3></div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Upcoming Lessons</th>
+                                            <th>Cancel a Lesson</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>NEXT LESSON</td>
+                                            <td>
+                                                <button class="btn btn-warning" type="submit">CANCEL </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>NEXT LESSON</td>
+                                            <td>
+                                                <button class="btn btn-warning" type="submit">CANCEL </button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Monthly Schedule</h3></div>
+                        <div class="panel-body">
+                            <p>INSERT MONTHLY CALENDAR HERE</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Your Student Profiles</h3></div>
+                        <div class="panel-body">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="well"><span>STUDENT 1</span></div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="well"><span>STUDENT 2</span></div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="well"><span>STUDENT 3</span></div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="well"><span>STUDENT 4</span></div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="well"><span>STUDENT 5</span></div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="well"><span>STUDENT 6</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Your Availability (select all that apply)</h3></div>
+                        <div class="panel-body">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Sunday Lesson 1: XX</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Sunday Lesson 2: XX</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Sunday Lesson 3: XX</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Monday Lesson 1: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Monday Lesson 2: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Monday Lesson 3: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Tuesday Lesson 1: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Tuesday Lesson 2: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Tuesday Lesson 3: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Wednesday Lesson 1: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Wednesday Lesson 2: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Wednesday Lesson 3: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Thursday Lesson 1: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Thursday Lesson 2: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Thursday Lesson 3: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Friday Lesson 1: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Friday Lesson 2: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Friday Lesson 3: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Saturday Lesson 1: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Saturday Lesson 2: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">Saturday Lesson 3: xx</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-md-offset-9">
+                                <button class="btn btn-primary" type="submit" style="width:184px;">SUBMIT AVAILABILITY</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:16px;"><strong>Reschedule:</strong> request to change your recurring lesson time.</h3></div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12" style="height:97px;"><span class="label label-default" style="font-size:16px;">Current Weekly Lesson Time (SLOT 1):</span>
+                                    <h1 style="width:450px;font-size:20px;">Weekday 00:00 XX - 00:00 XX</h1></div>
+                                <div class="col-lg-3 col-md-12"><span class="label label-default" style="font-size:16px;">Request Change to:</span>
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin:20px;width:257px;">Lesson Times<span class="caret"></span></button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li role="presentation"><a href="#">First Item</a></li>
+                                            <li role="presentation"><a href="#">Second Item</a></li>
+                                            <li role="presentation"><a href="#">Third Item</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12" style="height:97px;"><span class="label label-default" style="font-size:16px;">Current Weekly Lesson Time (SLOT 2):</span>
+                                    <h1 style="width:450px;font-size:20px;">EMPTY </h1></div>
+                                <div class="col-lg-3 col-md-12"><span class="label label-default" style="font-size:16px;">Request Change to:</span>
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="margin:20px;width:257px;">Lesson Times<span class="caret"></span></button>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li role="presentation"><a href="#">First Item</a></li>
+                                            <li role="presentation"><a href="#">Second Item</a></li>
+                                            <li role="presentation"><a href="#">Third Item</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-12 col-md-offset-9">
+                                    <button class="btn btn-primary" type="submit" style="width:142px;">SUBMIT REQUEST</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
