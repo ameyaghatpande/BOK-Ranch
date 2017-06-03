@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D4_staffAlerts</title>
+    <title>D4_StaffAlerts</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
@@ -29,308 +29,53 @@
             <div class="row">
                 <div class="col-lg-2 col-md-2 col-md-offset-0">
                     <ul class="nav nav-tabs">
-                        <li><a href="#">Home </a></li>
-                        <li><a href="#">Public Profile</a></li>
-                        <li><a href="#">Monthly Schedule</a></li>
-                        <li class="active"><a href="#">Alerts/Notifications </a></li>
-                        <li><a href="#">Lesson Plans</a></li>
-                        <li><a href="#">Quick Entry Progress Notes</a></li>
-                        <li><a href="#">Progress Notes</a></li>
-                        <li><a href="#">Account Management</a></li>
-                        <li><a href="#">Print Reports</a></li>
-                        <li><a href="#">Facilities </a></li>
-                        <li><a href="#">Archives </a></li>
+                        <li><a href="#" style="width:145px;">Home </a></li>
+                        <li><a href="#" style="width:145px;">Public Profile</a></li>
+                        <li><a href="#" style="width:145px;">Monthly Schedule</a></li>
+                        <li class="active"><a href="#" style="width:145px;">Alerts/Notifications </a></li>
+                        <li><a href="#" style="width:145px;">Lesson Plans</a></li>
+                        <li><a href="#" style="width:145px;height:66px;">Quick Entry Progress Notes</a></li>
+                        <li><a href="#" style="width:145px;">Progress Notes</a></li>
+                        <li><a href="#" style="width:145px;">Account Management</a></li>
+                        <li><a href="#" style="width:145px;">Print Reports</a></li>
+                        <li><a href="#" style="width:145px;">Facilities </a></li>
+                        <li><a href="#" style="width:145px;">Archives </a></li>
                     </ul>
                 </div>
-                <div class="col-lg-9 col-md-9">
+                <div class="col-lg-9 col-md-9" style="width:780px;height:999px;">
                     <h1 style="padding:0px;height:73px;">Alerts/Notifications </h1>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title" style="font-size:26px;color:rgb(242,6,6);">Priority Alerts!</h3></div>
-                        <div class="panel-body">
-                            <div class="col-md-5 col-md-offset-0" style="height:35px;">
-                                <input type="datetime-local">
-                            </div>
-                            <div class="col-md-2 col-md-offset-0"><span class="label label-default" style="background-color:rgb(187,187,187);color:rgb(7,7,7);font-size:17px;">sent to </span></div>
-                            <div class="col-md-2 col-md-offset-0">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">EVERYBODY <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li role="presentation"><a href="#">Volunteer </a></li>
-                                        <li role="presentation"><a href="#">Parent </a></li>
-                                        <li role="presentation"><a href="#">Third Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-1 col-md-offset-1"><i class="glyphicon glyphicon-pencil"></i></div>
-                            <div class="col-md-1 col-md-offset-0"><i class="glyphicon glyphicon-trash"></i></div>
-                            <div></div>
-                            <div></div>
-                            <div class="col-md-12">
-                                <label>First Name</label>
-                                <input type="text">
-                                <label>Role/Title </label>
-                                <input type="text">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" placeholder="NOTIFICATION TITLE">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Message/Alert" style="height:107px;width:239px;"></textarea>
-                            </div>
-                            <div class="col-md-9">
-                                <label>Notify all participants of off-mounted sessions for the day due to weather</label>
-                            </div>
-                            <div class="col-md-2 col-md-offset-1">
-                                <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(255,255,255);">Submit </button>
-                            </div>
-                        </div>
-                    </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title" style="font-size:26px;color:rgb(7,7,7);">All Notifications</h3></div>
                         <div class="panel-body">
-                            <div class="col-md-5 col-md-offset-0" style="height:35px;">
-                                <input type="datetime-local">
-                            </div>
-                            <div class="col-md-2 col-md-offset-0"><span class="label label-default" style="background-color:rgb(187,187,187);color:rgb(7,7,7);font-size:17px;">sent to </span></div>
-                            <div class="col-md-2 col-md-offset-0">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">EVERYBODY <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li role="presentation"><a href="#">Volunteer </a></li>
-                                        <li role="presentation"><a href="#">Parent </a></li>
-                                        <li role="presentation"><a href="#">Third Item</a></li>
-                                    </ul>
+                            <div></div>
+                            <div></div>
+                            <div class="col-md-12">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Date </th>
+                                                <th>Time </th>
+                                                <th>Audience </th>
+                                                <th>Sender </th>
+                                                <th> <i class="glyphicon glyphicon-pencil"></i></th>
+                                                <th> <i class="glyphicon glyphicon-trash"></i></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Title </td>
+                                                <td> </td>
+                                                <td> </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Message </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
-                            <div class="col-md-1 col-md-offset-1"><i class="glyphicon glyphicon-pencil"></i></div>
-                            <div class="col-md-1 col-md-offset-0"><i class="glyphicon glyphicon-trash"></i></div>
-                            <div></div>
-                            <div></div>
-                            <div class="col-md-12">
-                                <label>First Name</label>
-                                <input type="text">
-                                <label>Role/Title </label>
-                                <input type="text">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" placeholder="NOTIFICATION TITLE">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Message/Alert" style="height:107px;width:239px;"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading"></div>
-                        <div class="panel-body">
-                            <div class="col-md-5 col-md-offset-0" style="height:35px;">
-                                <input type="datetime-local">
-                            </div>
-                            <div class="col-md-2 col-md-offset-0"><span class="label label-default" style="background-color:rgb(187,187,187);color:rgb(7,7,7);font-size:17px;">sent to </span></div>
-                            <div class="col-md-2 col-md-offset-0">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">EVERYBODY <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li role="presentation"><a href="#">Volunteer </a></li>
-                                        <li role="presentation"><a href="#">Parent </a></li>
-                                        <li role="presentation"><a href="#">Third Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-1 col-md-offset-1"><i class="glyphicon glyphicon-pencil"></i></div>
-                            <div class="col-md-1 col-md-offset-0"><i class="glyphicon glyphicon-trash"></i></div>
-                            <div></div>
-                            <div></div>
-                            <div class="col-md-12">
-                                <label>First Name</label>
-                                <input type="text">
-                                <label>Role/Title </label>
-                                <input type="text">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" placeholder="NOTIFICATION TITLE">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Message/Alert" style="height:107px;width:239px;"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading"></div>
-                        <div class="panel-body">
-                            <div class="col-md-5 col-md-offset-0" style="height:35px;">
-                                <input type="datetime-local">
-                            </div>
-                            <div class="col-md-2 col-md-offset-0"><span class="label label-default" style="background-color:rgb(187,187,187);color:rgb(7,7,7);font-size:17px;">sent to </span></div>
-                            <div class="col-md-2 col-md-offset-0">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">EVERYBODY <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li role="presentation"><a href="#">Volunteer </a></li>
-                                        <li role="presentation"><a href="#">Parent </a></li>
-                                        <li role="presentation"><a href="#">Third Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-1 col-md-offset-1"><i class="glyphicon glyphicon-pencil"></i></div>
-                            <div class="col-md-1 col-md-offset-0"><i class="glyphicon glyphicon-trash"></i></div>
-                            <div></div>
-                            <div></div>
-                            <div class="col-md-12">
-                                <label>First Name</label>
-                                <input type="text">
-                                <label>Role/Title </label>
-                                <input type="text">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" placeholder="NOTIFICATION TITLE">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Message/Alert" style="height:107px;width:239px;"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading"></div>
-                        <div class="panel-body">
-                            <div class="col-md-5 col-md-offset-0" style="height:35px;">
-                                <input type="datetime-local">
-                            </div>
-                            <div class="col-md-2 col-md-offset-0"><span class="label label-default" style="background-color:rgb(187,187,187);color:rgb(7,7,7);font-size:17px;">sent to </span></div>
-                            <div class="col-md-2 col-md-offset-0">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">EVERYBODY <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li role="presentation"><a href="#">Volunteer </a></li>
-                                        <li role="presentation"><a href="#">Parent </a></li>
-                                        <li role="presentation"><a href="#">Third Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-1 col-md-offset-1"><i class="glyphicon glyphicon-pencil"></i></div>
-                            <div class="col-md-1 col-md-offset-0"><i class="glyphicon glyphicon-trash"></i></div>
-                            <div></div>
-                            <div></div>
-                            <div class="col-md-12">
-                                <label>First Name</label>
-                                <input type="text">
-                                <label>Role/Title </label>
-                                <input type="text">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" placeholder="NOTIFICATION TITLE">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Message/Alert" style="height:107px;width:239px;"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading"></div>
-                        <div class="panel-body">
-                            <div class="col-md-5 col-md-offset-0" style="height:35px;">
-                                <input type="datetime-local">
-                            </div>
-                            <div class="col-md-2 col-md-offset-0"><span class="label label-default" style="background-color:rgb(187,187,187);color:rgb(7,7,7);font-size:17px;">sent to </span></div>
-                            <div class="col-md-2 col-md-offset-0">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">EVERYBODY <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li role="presentation"><a href="#">Volunteer </a></li>
-                                        <li role="presentation"><a href="#">Parent </a></li>
-                                        <li role="presentation"><a href="#">Third Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-1 col-md-offset-1"><i class="glyphicon glyphicon-pencil"></i></div>
-                            <div class="col-md-1 col-md-offset-0"><i class="glyphicon glyphicon-trash"></i></div>
-                            <div></div>
-                            <div></div>
-                            <div class="col-md-12">
-                                <label>First Name</label>
-                                <input type="text">
-                                <label>Role/Title </label>
-                                <input type="text">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" placeholder="NOTIFICATION TITLE">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Message/Alert" style="height:107px;width:239px;"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading"></div>
-                        <div class="panel-body">
-                            <div class="col-md-5 col-md-offset-0" style="height:35px;">
-                                <input type="datetime-local">
-                            </div>
-                            <div class="col-md-2 col-md-offset-0"><span class="label label-default" style="background-color:rgb(187,187,187);color:rgb(7,7,7);font-size:17px;">sent to </span></div>
-                            <div class="col-md-2 col-md-offset-0">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">EVERYBODY <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li role="presentation"><a href="#">Volunteer </a></li>
-                                        <li role="presentation"><a href="#">Parent </a></li>
-                                        <li role="presentation"><a href="#">Third Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-1 col-md-offset-1"><i class="glyphicon glyphicon-pencil"></i></div>
-                            <div class="col-md-1 col-md-offset-0"><i class="glyphicon glyphicon-trash"></i></div>
-                            <div></div>
-                            <div></div>
-                            <div class="col-md-12">
-                                <label>First Name</label>
-                                <input type="text">
-                                <label>Role/Title </label>
-                                <input type="text">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" placeholder="NOTIFICATION TITLE">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Message/Alert" style="height:107px;width:239px;"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading"></div>
-                        <div class="panel-body">
-                            <div class="col-md-5 col-md-offset-0" style="height:35px;">
-                                <input type="datetime-local">
-                            </div>
-                            <div class="col-md-2 col-md-offset-0"><span class="label label-default" style="background-color:rgb(187,187,187);color:rgb(7,7,7);font-size:17px;">sent to </span></div>
-                            <div class="col-md-2 col-md-offset-0">
-                                <div class="dropdown">
-                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">EVERYBODY <span class="caret"></span></button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li role="presentation"><a href="#">Volunteer </a></li>
-                                        <li role="presentation"><a href="#">Parent </a></li>
-                                        <li role="presentation"><a href="#">Third Item</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-1 col-md-offset-1"><i class="glyphicon glyphicon-pencil"></i></div>
-                            <div class="col-md-1 col-md-offset-0"><i class="glyphicon glyphicon-trash"></i></div>
-                            <div></div>
-                            <div></div>
-                            <div class="col-md-12">
-                                <label>First Name</label>
-                                <input type="text">
-                                <label>Role/Title </label>
-                                <input type="text">
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" placeholder="NOTIFICATION TITLE">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea placeholder="Message/Alert" style="height:107px;width:239px;"></textarea>
-                            </div>
-                            <div class="col-md-4 col-md-offset-9"><a href="#">View Archived Notifications</a></div>
                         </div>
                     </div>
                     <div class="panel panel-default">
@@ -380,12 +125,13 @@
                                         <input type="checkbox">MARK AS PRIORITY</label>
                                 </div>
                             </div>
-                            <div class="col-md-12">
-                                <button class="btn btn-default" type="button" style="color:rgb(255,255,255);background-color:rgb(33,150,243);">Submit </button>
-                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-12 col-md-offset-2" style="height:36px;width:780px;">
+                    <button class="btn btn-default" type="button" style="color:rgb(255,255,255);background-color:rgb(33,150,243);">Submit </button>
+                </div>
+                <div class="col-md-8 col-md-offset-7" style="width:375px;height:97px;font-size:20px;"><a href="#" style="font-size:25px;">View Archived Notifications</a></div>
                 <div class="col-md-8 col-md-offset-2" style="width:662px;"></div>
             </div>
         </div>
