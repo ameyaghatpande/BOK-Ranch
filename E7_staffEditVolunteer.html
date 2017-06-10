@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E7_staffEditVolunteer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9">
+                    <div class="page-header">
+                        <h1 style="font-size:48px;">BOK Web Portal <small style="font-size:20px;">Therapeutic Horse Riding Coordinator</small></h1></div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="well"><span>CURRENT SIGNED IN USER HERE</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home </a></li>
+                        <li><a href="#">Your Profile</a></li>
+                        <li><a href="#">Account Information</a></li>
+                        <li><a href="#">Monthly Schedule</a></li>
+                        <li><a href="#">Alerts/Notifications</a></li>
+                        <li><a href="#">Lesson Plans</a></li>
+                        <li><a href="#">Quick Entry Progress Notes</a></li>
+                        <li><a href="#">Progress Notes</a></li>
+                        <li><a href="#">Account Management</a></li>
+                        <li><a href="#">Print Reports</a></li>
+                        <li><a href="#">Facilities </a></li>
+                        <li><a href="#">Archives </a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <h1 style="padding:0px;height:73px;">Edit Volunteer Account</h1>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Volunteer Information</h3>
+                            <div class="panel panel-default">
+                                <div class="panel-heading"></div>
+                                <div class="panel-body">
+                                    <label> </label>
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-12 col-md-offset-0" style="width:250px;"><img style="margin:43px;width:115px;height:115px;"></div>
+                                                    <div class="col-md-12" style="width:245px;padding:0px;height:89px;">
+                                                        <button class="btn btn-default" type="button" style="margin:34px;">Edit Profile Picture</button>
+                                                    </div>
+                                                    <div class="col-md-12" style="width:245px;padding:0px;height:89px;">
+                                                        <button class="btn btn-default" type="button" style="margin:34px;">Edit Public Profile</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="col-md-6">
+                                    <input class="form-control" type="text" style="width:300px;">
+                                    <label>Volunteer First Name</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" type="text" style="width:300px;">
+                                    <label>Volunteer Last Name</label>
+                                </div>
+                                <div class="col-md-6" style="height:80px;">
+                                    <input class="form-control" type="date">
+                                    <label>Birthday </label>
+                                </div>
+                                <div class="col-md-6" style="height:80px;">
+                                    <div class="radio" style="width:100px;">
+                                        <label>
+                                            <input type="radio">Female</label>
+                                    </div>
+                                    <div class="radio" style="width:100px;">
+                                        <label>
+                                            <input type="radio">Male</label>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="col-md-12" style="height:80px;">
+                                <input type="password" style="width:415px;">
+                                <label>Address (Line 1)</label>
+                            </div>
+                            <div class="col-md-12" style="height:80px;">
+                                <input type="password" style="width:415px;">
+                                <label>Address (Line 2)</label>
+                            </div>
+                            <div class="col-md-6" style="height:80px;">
+                                <input type="number" style="width:300px;">
+                                <label>State </label>
+                            </div>
+                            <div class="col-md-6" style="height:80px;">
+                                <input type="number" style="width:300px;">
+                                <label>ZIP</label>
+                            </div>
+                            <div class="col-md-6" style="height:80px;">
+                                <input type="tel" style="width:300px;">
+                                <label>Phone (Mobile) - <em>10 Digit Volunteer ID</em></label>
+                            </div>
+                            <div class="col-md-6" style="height:80px;">
+                                <input type="tel" style="width:300px;">
+                                <label>Secondary Phone (Home, Other)</label>
+                            </div>
+                            <div class="col-md-12" style="height:80px;">
+                                <input type="text" style="width:640px;height:48px;">
+                                <label>Medical Alert</label>
+                            </div>
+                            <div class="col-md-8" style="height:80px;">
+                                <div></div>
+                            </div>
+                            <div class="col-md-4" style="height:80px;">
+                                <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">Save Changes</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Account Information</h3></div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="col-md-6" style="height:80px;">
+                                    <input class="form-control" type="email" style="width:300px;">
+                                    <label>Email (Username)</label>
+                                </div>
+                                <div class="col-md-6" style="height:80px;">
+                                    <input class="form-control" type="password" style="width:300px;">
+                                    <label>Password </label>
+                                </div>
+                            </form>
+                            <div class="col-md-8" style="height:80px;"></div>
+                            <div class="col-md-4" style="height:80px;">
+                                <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">Save Changes</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="nav nav-tabs">
+                            <li><a href="#tab-1" role="tab" data-toggle="tab">Application </a></li>
+                            <li><a href="#tab-2" role="tab" data-toggle="tab">Emergency </a></li>
+                            <li><a href="#tab-3" role="tab" data-toggle="tab">General Info</a></li>
+                            <li><a href="#tab-9" role="tab" data-toggle="tab">Health History</a></li>
+                            <li><a href="#tab-8" role="tab" data-toggle="tab">Releases </a></li>
+                            <li><a href="#tab-7" role="tab" data-toggle="tab">Agreements </a></li>
+                            <li class="active"><a href="#tab-4" role="tab" data-toggle="tab">Forms </a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane" role="tabpanel" id="tab-1">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-heading">
+                                                            <h3 class="panel-title" style="font-size:26px;">Intake Assessment</h3></div>
+                                                        <div class="panel-body">
+                                                            <div class="col-md-12">
+                                                                <label><strong>Select all below that apply to volunteer's interests/abilities:</strong></label>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="checkbox">
+                                                                    <label>
+                                                                        <input type="checkbox">Barn Assistant*</label>
+                                                                </div>
+                                                                <label><em>Assist with horse care and barn management duties. No previous horse experience necessary.</em></label>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="checkbox">
+                                                                    <label>
+                                                                        <input type="checkbox">Horse Leader**</label>
+                                                                </div>
+                                                                <label><em>Help ensure the rider's safety by being responsible for leading a horse in lessons while being aware of horese's behavior and surroundings. Previous horse experience preferred or as assesed by instructor.</em></label>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="checkbox">
+                                                                    <label>
+                                                                        <input type="checkbox">Side Walker**</label>
+                                                                </div>
+                                                                <label><em>Help ensure rider's safety by supporting riders (physically and/or by coaching) in lessons. Experience working with children with and without special needs preferred or as assessed by instructor.</em></label>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="checkbox">
+                                                                    <label>
+                                                                        <input type="checkbox">Junior Volunteer**</label>
+                                                                </div>
+                                                                <label><em>Volunteers under the age of 14 can participate as Barn Assistants only, and must be accompanied by a parent or guardian at all times.</em></label>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <label style="font-size:11px;"><em>*Must attend an orientation - no minimum committment required.</em></label>
+                                                                <label style="font-size:11px;"><em>**Must attend 2-part orientation and training - minimum 10 week commitment required.</em></label>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <label style="height:33px;width:464px;"><strong>Does the volunteer have previous horse experience? If so, please describe:</strong></label>
+                                                                <textarea style="width:600px;"></textarea>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="well"><span><strong>I</strong> understand that the information provided above is accurate to the best of my knowledge. I know of no reason why I should not participate in the BOK Ranch volutneer program.</span>
+                                                                    <div></div><span><strong>SIGNATURE</strong></span>
+                                                                    <input type="text" style="margin:10px;"><span><strong>DATE </strong></span>
+                                                                    <input type="date" style="margin:8px;">
+                                                                    <label style="font-size:11px;"><strong><em>(</em></strong><em>Volunteer or parent/caregiver if volunteer under 18)</em></label>
+                                                                    <div class="col-md-8" style="height:80px;"></div>
+                                                                    <div class="col-md-4" style="height:80px;">
+                                                                        <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">SUBMIT </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 col-md-offset-8" style="height:80px;">
+                                                                <label style="margin:33px;"><em>Last Edited: DATE</em></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="tab-2">
+                                <div class="col-md-12">
+                                    <label style="font-size:20px;">Emergency Contact Information</label>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <input type="text" style="width:300px;">
+                                                    <label>Primary Contact First Name</label>
+                                                    <input type="text" style="width:300px;">
+                                                    <label>Primary Contact Last Name</label>
+                                                </div>
+                                                <div class="col-md-8" style="height:80px;">
+                                                    <div class="dropdown">
+                                                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="width:200px;margin:20px;">Relationship<span class="caret"></span></button>
+                                                        <ul class="dropdown-menu" role="menu">
+                                                            <li role="presentation"><a href="#">Mother </a></li>
+                                                            <li role="presentation"><a href="#">Father </a></li>
+                                                            <li role="presentation"><a href="#">Grandparent </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" style="width:300px;">
+                                            <label>Mobile Number</label>
+                                            <input type="text" style="width:300px;">
+                                            <label>Home/Office Number</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox">Make public emergency contact?</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" style="height:50px;">
+                                            <div class="row"></div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <input type="text" style="width:300px;">
+                                                            <label>Secondary Contact First Name</label>
+                                                            <input type="text" style="width:300px;">
+                                                            <label>Secondary Contact Last Name</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <input type="text" style="width:300px;">
+                                                            <label>Mobile Number</label>
+                                                            <input type="text" style="width:300px;">
+                                                            <label>Home/Office Number</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6" style="height:80px;">
+                                                    <div class="dropdown" style="padding:20px;">
+                                                        <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="width:200px;">Relationship<span class="caret"></span></button>
+                                                        <ul class="dropdown-menu" role="menu">
+                                                            <li role="presentation"><a href="#">Mother </a></li>
+                                                            <li role="presentation"><a href="#">Father </a></li>
+                                                            <li role="presentation"><a href="#">Grandparent </a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox">Make public emergency contact?</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8"></div>
+                                        <div class="col-md-4" style="height:80px;">
+                                            <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">Save Changes</button>
+                                        </div>
+                                        <div class="col-md-4 col-md-offset-8" style="height:80px;">
+                                            <label style="margin:33px;"><em>Last Edited: DATE</em></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="tab-3">
+                                <form>
+                                    <label style="font-size:20px;">School/Employer </label>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input class="form-control" type="text">
+                                            <label><strong>Employer / School Name</strong></label>
+                                        </div>
+                                        <div class="col-md-12" style="height:80px;">
+                                            <input class="form-control" type="password" style="width:415px;">
+                                            <label>Address (Line 1)</label>
+                                        </div>
+                                        <div class="col-md-12" style="height:80px;">
+                                            <input class="form-control" type="password" style="width:415px;">
+                                            <label>Address (Line 2)</label>
+                                        </div>
+                                        <div class="col-md-6" style="height:80px;">
+                                            <input class="form-control" type="number" style="width:300px;">
+                                            <label>State </label>
+                                        </div>
+                                        <div class="col-md-6" style="height:80px;">
+                                            <input class="form-control" type="number" style="width:300px;">
+                                            <label>ZIP </label>
+                                        </div>
+                                        <div class="col-md-6" style="height:80px;">
+                                            <input class="form-control" type="tel">
+                                            <label>Phone Number</label>
+                                        </div>
+                                        <div class="col-md-6" style="height:80px;">
+                                            <input class="form-control" type="email">
+                                            <label>Email </label>
+                                        </div>
+                                        <div class="col-md-8"></div>
+                                        <div class="col-md-4" style="height:80px;">
+                                            <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">Save Changes</button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label><strong>Parent/Legal Guardian (if Volunteer under 18)</strong></label>
+                                        </div>
+                                        <div class="col-md-12" style="width:350px;">
+                                            <input class="form-control" type="text" style="width:300px;">
+                                            <label>First Name</label>
+                                        </div>
+                                        <div class="col-md-12" style="width:350px;">
+                                            <input class="form-control" type="text" style="width:300px;">
+                                            <label>Last Name</label>
+                                        </div>
+                                        <div class="col-md-12" style="height:80px;">
+                                            <input class="form-control" type="password" style="width:415px;">
+                                            <label>Address (Line 1)</label>
+                                        </div>
+                                        <div class="col-md-12" style="height:80px;">
+                                            <input class="form-control" type="password" style="width:415px;">
+                                            <label>Address (Line 2)</label>
+                                        </div>
+                                        <div class="col-md-6" style="height:80px;">
+                                            <input class="form-control" type="number" style="width:300px;">
+                                            <label>State </label>
+                                        </div>
+                                        <div class="col-md-6" style="height:80px;">
+                                            <input class="form-control" type="number" style="width:300px;">
+                                            <label>ZIP </label>
+                                        </div>
+                                        <div class="col-md-6" style="height:80px;">
+                                            <input class="form-control" type="tel">
+                                            <label>Phone Number</label>
+                                        </div>
+                                        <div class="col-md-6" style="height:80px;">
+                                            <input class="form-control" type="email">
+                                            <label>Email </label>
+                                        </div>
+                                        <div class="col-md-8"></div>
+                                        <div class="col-md-4" style="height:80px;">
+                                            <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">Save Changes</button>
+                                        </div>
+                                        <div class="col-md-4 col-md-offset-8" style="height:80px;">
+                                            <label style="margin:33px;"><em>Last Edited: DATE</em></label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="tab-9">
+                                <div class="col-md-12">
+                                    <label style="font-size:20px;">Health History</label>
+                                    <div class="row">
+                                        <div class="col-md-6" style="width:690px;">
+                                            <div class="row" style="width:690px;">
+                                                <div class="col-md-12">
+                                                    <label><strong>Please describe your current health status, particularly regarding the physical/emotional demands of working in an equine-assisted program. Include fitness, cardiac, respiratory, bone or joint function, recent hospitalizations, surgeries or lifestyle changes. Also include allergies and prescription and non-prescription medications you are currently taking.</strong></label>
+                                                    <textarea
+                                                    style="width:650px;height:110px;"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <label style="height:28px;"><strong>I</strong>ndicate all that apply:</label>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="table-responsive">
+                                                        <table class="table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Functions </th>
+                                                                    <th>Applicable? </th>
+                                                                    <th>Comments </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Pregnant </td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="row">
+                                                                            <div class="col-md-12">
+                                                                                <input type="text">
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Back Injuries/Problems</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Heart Disease</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Hearing Difficulties</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Visually Impaired</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Lack of Stamina</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Lack of Coordination</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Weakness </td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Difficulty Walking</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Loss of Balance</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Dizziness </td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>High Anxiety/Phobias</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Difficulty Understanding Speech</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Respiratory Problems</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Enrolled in Special Education</td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Other </td>
+                                                                    <td>
+                                                                        <div class="radio" style="margin:0px;">
+                                                                            <label>
+                                                                                <input type="radio">
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="col-md-12">
+                                                                            <input type="text">
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="well"><span>I understand that the information provided above is accurate to the best of my knowledge. I know of no reason why I should not participate in the BOK Ranch volunteer program.</span>
+                                                <div></div><span><strong> SIGNATURE</strong></span>
+                                                <input type="text" style="margin:10px;width:300px;"><span><strong>DATE </strong></span>
+                                                <input type="date" style="margin:8px;"><span><em>(Volunteer or parent/caregiver if volunteer under 18.)</em></span>
+                                                <div class="col-md-8" style="height:80px;"></div>
+                                                <div class="col-md-4" style="height:80px;">
+                                                    <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">SUBMIT </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-md-offset-8" style="height:80px;">
+                                            <label style="margin:33px;"><em>Last Edited: DATE</em></label>
+                                        </div>
+                                        <div class="col-md-12"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="tab-8">
+                                <div class="well">
+                                    <h3 class="panel-title" style="font-size:26px;">Photo Release</h3><span>I consent to and authorize the use and reproduction by BOK Ranch of any and all photographs and any other audio/visual materials taken of me for promotional materials, educational activities, exhibitions or for any other use for the benefit of the program.</span>
+                                    <div></div><span><strong> SIGNATURE</strong></span>
+                                    <input type="text" style="margin:10px;width:300px;"><span><strong>DATE </strong></span>
+                                    <input type="date" style="margin:8px;">
+                                    <label><em>(Volunteer, Parent or Legal Guardian if under 18)</em></label>
+                                    <div class="col-md-8" style="height:80px;"></div>
+                                    <div class="col-md-4" style="height:80px;">
+                                        <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">SUBMIT </button>
+                                    </div>
+                                    <h3 class="panel-title" style="font-size:26px;">Confidentiality Agreement</h3><span>I understand that all information (written and verbal) about participants at BOK Ranch is confidential and will not be shared with anyone without the expressed written consent of the participant and his/her parent/guardian in the case of a minor.</span>
+                                    <div></div><span><strong> SIGNATURE</strong></span>
+                                    <input type="text" style="margin:10px;width:300px;"><span><strong>DATE </strong></span>
+                                    <input type="date" style="margin:8px;">
+                                    <label><em>(Volunteer, Parent or Legal Guardian if under 18)</em></label>
+                                    <div class="col-md-8" style="height:80px;"></div>
+                                    <div class="col-md-4" style="height:80px;">
+                                        <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">SUBMIT </button>
+                                    </div>
+                                    <div class="col-md-4 col-md-offset-8" style="height:80px;">
+                                        <label style="margin:33px;"><em>Last Edited: DATE</em></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" role="tabpanel" id="tab-8"></div>
+                            <div class="tab-pane" role="tabpanel" id="tab-7">
+                                <div class="well">
+                                    <h3 class="panel-title" style="font-size:26px;">Speed Limit/Parking Agreements</h3>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Agreement</th>
+                                                    <th>Description </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>I understand and agree to drive 10 miles per hour OR LESS once I enter the Horse Park at Woodside.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>I understand and agree that any person, mounted on a horse or handling a horse(s) from the ground, automatically has the right of way.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>I understand and agree that I shall slow to 3 miles per hour while passing any horse(s) on the Horse Park roads, and I will come to a complete stop and wait if a horse or rider appears to be in distress
+                                                        or losing control.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>BOK Riders, volunteers, and visitors shall park in the designated parking area at the end of the road.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>Riders who are non-ambulatory, or considered fragile ambulators, and have DMV handicapped plates and/or placards, may park in the handicap spaces close to the barn.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>I understand and agree that if I am parking close to the barn in a designated handicap parking space that I will drive UNDER 5 miles per hour through the gate at Three Bay Farms (the barn located next
+                                                        to BOK Ranch).</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>I agree to display a yellow BOK Ranch parking pass in my car when entering the Horse Park at Woodside. I also understand that failure to have a parking pass during show season or during a horse park
+                                                        event may lead to parking fees at the front gate, and no access to the BOK Ranch parking area.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>I understand that there are cameras located throughout the Horse Park and speeders may be asked to leave the premises and may not be allowed to return.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>I understand that horses,by nature are flight animals and are easily frightened by speeding cars and loud car stereos. Horses' natural reactive nature may cause danger for their handler/rider.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>I understand that it is very expensive to maintain the Horse Park roads, and that excessive speed increases the deterioration of the roads.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="checkbox" style="width:40px;">
+                                                            <label>
+                                                                <input type="checkbox">
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                    <td>I understand that if I exceed the speed limit on Horse Park property, I waive my right to confidentiality, and my name will be reported to the Horse Park's main office.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <label>I understand and agree that by reading and signing this agreement, I take responsibility for any person associated with my lessons and/or volunteer work (i.e. spouses, caregivers, parents, visitors, carpools, minivans/transporters,
+                                        etc.).</label>
+                                    <div></div><span><strong> SIGNATURE</strong></span>
+                                    <input type="text" style="margin:10px;width:300px;"><span><strong>DATE </strong></span>
+                                    <input type="date" style="margin:8px;">
+                                    <label style="width:129px;"><em>(Volunteer) </em></label>
+                                    <div></div><span><strong> SIGNATURE</strong></span>
+                                    <input type="text" style="margin:10px;width:300px;"><span><strong>DATE </strong></span>
+                                    <input type="date" style="margin:8px;">
+                                    <label><em>(Volunteer's Parent or Legal Guardian if under 18)</em></label>
+                                    <div class="col-md-8" style="height:80px;"></div>
+                                    <div class="col-md-4" style="height:80px;">
+                                        <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">SUBMIT </button>
+                                    </div>
+                                    <div class="col-md-4 col-md-offset-8" style="height:80px;">
+                                        <label style="margin:33px;"><em>Last Edited: DATE</em></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane active" role="tabpanel" id="tab-4">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title" style="font-size:26px;height:40px;">BOK Release of Liability</h3><span>I do forever release, acquit, discharge, and hold harmless BOK Ranch, its agents, employees, representatives, successors, and assignes, for all manner of claims, demands, and damages of every kind and nature, where to which the undersigned or said minor may now, or in the future, have against BOK Ranch, its agents, employees, representatives, successors, or assigns on account of personal injuries, physical or mental condition, known or unknown, to the person of said minor and the treatment thereof, as a result of, or in any way growing out of the acts of BOK Ranch, its agents, employees, representatives, successors, or assigns including but not limited to negligence or gross negligence, in executing the services above described and/or incidental thereto.</span>
+                                        <div
+                                        class="well">
+                                            <div></div><span><strong> SIGNATURE</strong></span>
+                                            <input type="text" style="margin:10px;width:300px;"><span><strong>DATE </strong></span>
+                                            <input type="date" style="margin:8px;">
+                                            <label><em>(Volunteer, Parent or Legal Guardian if under 18)</em></label>
+                                            <div class="col-md-8" style="height:140px;"></div>
+                                            <div class="col-md-4" style="height:140px;">
+                                                <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">SUBMIT </button>
+                                            </div>
+                                            <h3 class="panel-title" style="font-size:26px;height:213px;">The Horse Park at Woodside - General Agreement &amp; Release of Liability</h3><span>I, the undersigned (must be a parent or guardian if person named is under the age of 18), hereby acknowledge that I have requested permission to participate in equestrian or other activities on the premises of the Horse Park at Woodside. I have read and agree to abide by the Horse Park Facility Use Rules. I am aware that combined training and eventing, jumping, trail riding, conditioning, polo and all other forms of equestrian activities, including the teaching, training, or coaching thereof can be hazardous. I am voluntarily participating in equestrian or other activities with the knowledge of the danger involved nad hereby agree to accept any and all risks of injury or death. </span>
+                                            <div></div><span>In consideration for being permitted to use the facilities at the Horse Park at Woodside, I hereby agree that I, my heirs, my distributees, guardians, legal representatives and assignees will not make a claim against, sue, attach the property of, or prosecute the Horse Park at Woodside, its landlord, directors, officers, members, employees or assignees, for any claim I now have or may hereafter have for death, injury, or property damage resulting from my use of the facilities at the Horse Park at Woodside, whether caused by my acts of omission or negligence or any else's. In addition, it is understood that any and all insurance that I have shall be primary. To the fullest extent permitted by law, I shall defend, indemnify and hold harmless the Horse Park at Woodside, its landlord, directors, officers, agents and employees for and against any and all claims, damages, losses, expenses, and liabilities of every kind, including but not limited to attorney's fees, in any way arising out of or in connection with my activities under this Agreement. This indemnify shall apply regardless of any active and/or passive negligent act or omission of the Horse Park at Woodside, its landlor, directors, officers, agents, and employees.</span>
+                                            <div></div><span><strong>I have carefully read this agreement and release and fully understand its contents. I am aware that this is a Release of Liability, a waiver of legal rights and contracts between me and the Horse Park at Woodside. I sign this agreement and liability of my own free will. I further acknowledge that there are no warranties either express or implied, concerning the facilities, events, or activities at the Horse Park at Woodside.</strong></span>
+                                            <div></div><span><strong> SIGNATURE</strong></span>
+                                            <input type="text" style="margin:10px;width:300px;"><span><strong>DATE </strong></span>
+                                            <input type="date" style="margin:8px;">
+                                            <label><em>(Volunteer) </em></label>
+                                            <div></div><span><strong> SIGNATURE</strong></span>
+                                            <input type="text" style="margin:10px;width:300px;"><span><strong>DATE </strong></span>
+                                            <input type="date" style="margin:8px;">
+                                            <label><em>(Rider/Participant, Parent or Legal Guardian if under 18)</em></label>
+                                            <div class="col-md-8" style="height:80px;"></div>
+                                            <div class="col-md-4" style="height:80px;">
+                                                <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">SUBMIT </button>
+                                            </div>
+                                            <div class="col-md-4 col-md-offset-8" style="height:80px;">
+                                                <label style="margin:33px;"><em>Last Edited: DATE</em></label>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="panel-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
