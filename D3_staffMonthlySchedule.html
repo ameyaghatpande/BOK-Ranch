@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3_staffSchedule</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9">
+                    <div class="page-header">
+                        <h1 style="font-size:48px;">BOK Web Portal <small style="font-size:20px;">Therapeutic Horse Riding Coordinator</small></h1></div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="well"><span>CURRENT SIGNED IN USER HERE</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home </a></li>
+                        <li><a href="#">Your Profile</a></li>
+                        <li><a href="#">Account Information</a></li>
+                        <li><a href="#">Monthly Schedule</a></li>
+                        <li><a href="#">Alerts/Notifications</a></li>
+                        <li><a href="#">Lesson Plans</a></li>
+                        <li><a href="#">Quick Entry Progress Notes</a></li>
+                        <li><a href="#">Progress Notes</a></li>
+                        <li><a href="#">Account Management</a></li>
+                        <li><a href="#">Print Reports</a></li>
+                        <li><a href="#">Facilities </a></li>
+                        <li><a href="#">Archives </a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <h1 style="padding:0px;height:73px;">Staff Schedule</h1>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Monthly Schedule</h3></div>
+                        <div class="panel-body">
+                            <p>INSERT MONTHLY CALENDAR HERE</p>
+                            <div class="col-lg-4 col-md-4 col-md-offset-8">
+                                <button class="btn btn-primary" type="submit" style="width:211px;">Add Public Calendar Event</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Approve/Decline Pending Schedule Change Requests</h3></div>
+                        <div class="panel-body">
+                            <div class="col-md-12">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><span>List Group Item 1</span></li>
+                                    <li class="list-group-item"><span>List Group Item 2</span></li>
+                                    <li class="list-group-item"><span>List Group Item 3</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-4 col-md-3 col-md-offset-8">
+                                <button class="btn btn-primary" type="submit" style="width:142px;">Save Changes</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Assigned Schedules (MASTER SCHEDULE)</h3></div>
+                        <div class="panel-body">
+                            <div class="col-lg-3 col-md-3"><span class="label label-default">Day of Week</span>
+                                <input type="text" style="width:121px;">
+                                <input type="time">
+                                <label style="padding:7px;"> to </label>
+                                <input type="time">
+                            </div>
+                            <div class="col-lg-3 col-md-2">
+                                <label style="color:#0051ba;">Instructor </label>
+                                <div class="thumbnail" style="width:69px;"><img style="width:31px;height:30px;background-color:#0038a8;">
+                                    <button class="btn btn-default btn-xs" type="button" style="font-size:8px;margin:10px;height:17px;padding:3px;width:36px;color:#e8112d;">DELETE </button>
+                                </div><i class="glyphicon glyphicon-plus"></i></div>
+                            <div class="col-lg-3 col-md-2">
+                                <label style="color:#7a1e99;">Participants </label>
+                                <div class="thumbnail" style="width:46px;margin:0px;height:52px;"><img style="width:31px;height:30px;background-color:#0038a8;">
+                                    <button class="btn btn-default" type="button" style="font-size:8px;margin:0px;height:13px;padding:0px;width:36px;color:#e8112d;">DELETE </button>
+                                </div><i class="glyphicon glyphicon-plus"></i></div>
+                            <div class="col-lg-3 col-md-2">
+                                <label style="color:#5bbf21;">Volunteers </label>
+                                <div class="thumbnail" style="width:46px;margin:0px;height:52px;"><img style="width:31px;height:30px;background-color:#0038a8;">
+                                    <button class="btn btn-default" type="button" style="font-size:8px;margin:0px;height:13px;padding:0px;width:36px;color:#e8112d;">DELETE </button>
+                                </div>
+                                <div class="thumbnail" style="width:46px;margin:0px;height:52px;"><img style="width:31px;height:30px;background-color:#0038a8;">
+                                    <button class="btn btn-default" type="button" style="font-size:8px;margin:0px;height:13px;padding:0px;width:36px;color:#e8112d;">DELETE </button>
+                                </div><i class="glyphicon glyphicon-plus"></i></div>
+                            <div class="col-lg-3 col-md-2">
+                                <label style="color:#030303;"><strong>AVAILABLE </strong></label>
+                                <div class="thumbnail" style="width:46px;margin:0px;height:52px;"><img style="width:31px;height:30px;background-color:#0038a8;">
+                                    <button class="btn btn-default" type="button" style="font-size:8px;margin:0px;height:13px;padding:0px;width:36px;color:#e8112d;">DELETE </button>
+                                </div>
+                                <div class="thumbnail" style="width:46px;margin:0px;height:52px;"><img style="width:31px;height:30px;background-color:#0038a8;">
+                                    <button class="btn btn-default" type="button" style="font-size:8px;margin:0px;height:13px;padding:0px;width:36px;color:#e8112d;">DELETE </button>
+                                </div><i class="glyphicon glyphicon-plus"></i></div>
+                            <div class="col-lg-4 col-md-4 col-md-offset-8">
+                                <button class="btn btn-primary" type="submit" style="width:211px;">Save Changes to Schedule</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-md-offset-8">
+                    <button class="btn btn-primary" type="submit" style="width:211px;">Add new lesson block</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
