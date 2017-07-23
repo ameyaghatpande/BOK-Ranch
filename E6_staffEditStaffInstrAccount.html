@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E6_viewAdminStaffAccount</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9">
+                    <div class="page-header">
+                        <h1 style="font-size:48px;">BOK Web Portal <small style="font-size:20px;">Therapeutic Horse Riding Coordinator</small></h1></div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="well"><span>CURRENT SIGNED IN USER HERE</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">Home </a></li>
+                        <li><a href="#">Your Profile</a></li>
+                        <li><a href="#">Account Information</a></li>
+                        <li><a href="#">Monthly Schedule</a></li>
+                        <li><a href="#">Alerts/Notifications</a></li>
+                        <li><a href="#">Lesson Plans</a></li>
+                        <li><a href="#">Quick Entry Progress Notes</a></li>
+                        <li><a href="#">Progress Notes</a></li>
+                        <li><a href="#">Account Management</a></li>
+                        <li><a href="#">Print Reports</a></li>
+                        <li><a href="#">Facilities </a></li>
+                        <li><a href="#">Archives </a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <h1 style="padding:0px;height:73px;">Edit Staff/Instructor</h1>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Instructor / Staff Information</h3></div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="col-md-6">
+                                    <input class="form-control" type="text">
+                                    <label>First Name</label>
+                                </div>
+                                <div class="col-md-6">
+                                    <input class="form-control" type="text">
+                                    <label>Last Name</label>
+                                </div>
+                                <div class="col-md-6" style="height:80px;">
+                                    <input class="form-control" type="email" style="width:300px;">
+                                    <label>Email (Username)</label>
+                                </div>
+                                <div class="col-md-6" style="height:80px;">
+                                    <input class="form-control" type="tel" style="width:300px;">
+                                    <label>Phone Number (Mobile)</label>
+                                </div>
+                            </form>
+                            <div class="col-md-6">
+                                <input type="text" style="width:303px;">
+                                <label>Role/Title </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio">Instructor</label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio">Staff</label>
+                            </div>
+                            <div class="col-md-8"></div>
+                            <div class="col-md-4" style="height:80px;">
+                                <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;">Save Changes</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title" style="font-size:26px;">Emergency Information</h3></div>
+                        <div class="panel-body">
+                            <div class="col-md-12" style="height:80px;">
+                                <input type="text" style="width:640px;height:48px;">
+                                <label>Medical Alert</label>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <input type="text" style="width:300px;">
+                                                <label>Primary Contact First Name</label>
+                                                <input type="text" style="width:300px;">
+                                                <label>Primary Contact Last Name</label>
+                                            </div>
+                                            <div class="col-md-8" style="height:80px;">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="width:200px;margin:20px;">Relationship<span class="caret"></span></button>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li role="presentation"><a href="#">Mother </a></li>
+                                                        <li role="presentation"><a href="#">Father </a></li>
+                                                        <li role="presentation"><a href="#">Grandparent </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" style="width:300px;">
+                                        <label>Mobile Number</label>
+                                        <input type="text" style="width:300px;">
+                                        <label>Home/Office Number</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">Make public emergency contact?</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="height:50px;">
+                                        <div class="row"></div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <input type="text" style="width:300px;">
+                                                        <label>Secondary Contact First Name</label>
+                                                        <input type="text" style="width:300px;">
+                                                        <label>Secondary Contact Last Name</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <input type="text" style="width:300px;">
+                                                        <label>Mobile Number</label>
+                                                        <input type="text" style="width:300px;">
+                                                        <label>Home/Office Number</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6" style="height:80px;">
+                                                <div class="dropdown" style="padding:20px;">
+                                                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="width:200px;">Relationship<span class="caret"></span></button>
+                                                    <ul class="dropdown-menu" role="menu">
+                                                        <li role="presentation"><a href="#">Mother </a></li>
+                                                        <li role="presentation"><a href="#">Father </a></li>
+                                                        <li role="presentation"><a href="#">Grandparent </a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox">Make public emergency contact?</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8"></div>
+                                    <div class="col-md-4" style="height:80px;">
+                                        <button class="btn btn-default" type="button" style="background-color:rgb(33,150,243);color:rgb(254,254,254);margin:45px;width:140px;">Save Changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
